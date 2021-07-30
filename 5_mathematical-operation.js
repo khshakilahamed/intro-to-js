@@ -45,3 +45,12 @@ var secondNumber = 0.2;
 
 var total = firstNumber + secondNumber;
 console.log(typeof total.toFixed(1)); // string value represents
+
+
+
+// modulus 
+
+var mangoes = 7;
+var hungryPerson = 2;
+var remaining = mangoes % hungryPerson;
+console.log("The remaining is: ", remaining);
